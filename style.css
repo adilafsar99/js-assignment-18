@@ -1,0 +1,228 @@
+/* Styling the body tag */
+
+body {
+				background-color: #8998b6
+}
+
+/* The main tag that holds all the page content*/
+
+main {
+				width: 90%;
+				margin: 0 auto;
+}
+
+/* Styling the main heading */
+
+.heading-div {
+				width: 100%;
+				text-align: center;
+}
+
+.heading-div {
+				color: #da1224;
+				text-shadow: -2px 2px 1px #000000;
+}
+
+
+/* Aligning the input fields and the search button */
+
+.inputs-and-search-div {
+				width: 70%;
+				margin: 0 auto;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+}
+
+.inputs-div {
+				width: 90%;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+}
+
+.input {
+				width: 49%;
+				border-radius: 4px;
+				box-shadow: 1px 1px 1px 2px;
+				padding-left: 3px;
+}
+
+.input:focus {
+				outline: none;
+}
+
+.search-btn-div {
+				width: 8%;
+}
+
+#search-btn {
+				color: #da1224;
+				text-shadow: 1px 1px 1px #000000;
+				letter-spacing: 0.2em;
+				border-radius: 2px;
+				box-shadow: 1px 1px 1px 2px #000000;				
+}
+
+#search-btn:focus {
+				outline: none;
+}
+
+/* Aligning the mobile cards in the mobile catalogue div */
+
+#mobile-catalogue-div {
+				width: 100%;
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				margin-top: 20px;
+}
+
+.mobile-card {
+				width: 250px;
+				height: 450px;
+				margin-bottom: 30px;
+				border: 2px solid;
+				border-radius: 10px;
+				border-radius: 10px;
+				box-shadow: 1px 1px 1px 2px;
+}
+
+.mobile-image-div {
+				width: 100%;
+				height: 90%;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				background-color: #ffffff;
+				border-top-right-radius: 9px;
+				border-top-left-radius: 9px;
+}
+
+.mobile-img {
+				width: 90%;
+				height: 70%;
+}
+
+.mobile-name-div {
+				width: 100%;
+				height: 10%;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				font-size: 18px;
+				font-weight: bolder;
+				box-sizing: border-box;
+				color: #ffffff;
+				background-color: #d12b23;
+				border-bottom-right-radius: 9px;
+				border-bottom-left-radius: 9px;
+}
+
+/* Aligning the requested mobile's card in the mobile catalogue div */
+
+.requested-mobile-card {
+				width: 400px;
+				height: fit-content;
+				margin-bottom: 20px;
+				border: 2px solid;
+				background-color: #ffffff;
+				border-radius: 10px;
+				box-shadow: 1px 1px 1px 2px;
+}
+
+.mobile-img-div {
+				width: 100%;
+				height: 40%;
+				display: flex;
+				justify-content: space-around;
+				padding-top: 20px;
+				box-sizing: border-box;
+}
+
+#mobile-img {
+				width: 80%;
+				height: 100%;
+}
+
+.mobile-specs-div {
+				width: 100%;
+				height: fit-content;
+				padding: 5px 0 5px 10px;
+				box-sizing: border-box;
+}
+
+span {
+				font-weight: bold;
+}
+
+/* Styling not found card */
+
+#not-found-card {
+				width: 500px;
+				height: fit-content;
+				border: 2px solid;
+				border-radius: 10px;
+}
+
+#not-found-img-div {
+				width: 100%;
+				height: 80%;
+				border-top-right-radius: 9px;
+				border-top-left-radius: 9px;
+				margin: 0;
+				display: flex;
+}
+
+#not-found-img {
+				width: 100%;
+				height: 100%;
+				border-top-right-radius: 9px;
+				border-top-left-radius: 9px;
+}
+
+#not-found-para-div {
+				width: 100%;
+				height: fit-content;
+				text-align: center;
+				font-weight: bolder;
+				color: #ffffff;
+				background-color: #da1224;
+				border-bottom-right-radius: 9px;
+				border-bottom-left-radius: 9px;
+				padding: 10px 0;
+}
+
+#not-found-message {
+				margin: 0;
+}
+
+
+/* Styling input field for invalid input */
+
+.invalid-value::placeholder {
+				color: #d12b23;
+				font-weight: bolder;
+}
+
+
+/* Media Queries */
+
+/* For aligning inputs and search divs on mobile screens */
+
+@media(max-width: 460px){
+				.inputs-and-search-div {
+								width: 100%;
+				}
+				
+				.inputs-div {
+								width: 100%;
+				}
+				
+				.search-btn-div {
+								width: 100%;
+								display: flex;
+								justify-content: space-around;
+								margin-top: 7px;
+				}
+}
